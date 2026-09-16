@@ -1,0 +1,1 @@
+- [Expo preview compatibility](expo-preview-compatibility.md) — keep optional document-processing modules out of top-level imports so Expo web can boot.

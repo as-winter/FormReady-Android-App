@@ -1,0 +1,62 @@
+const colors = {
+  light: {
+    text: '#171727',
+    tint: '#6C63FF',
+    background: '#F7F7FC',
+    foreground: '#171727',
+    card: '#FFFFFF',
+    cardForeground: '#171727',
+    primary: '#6C63FF',
+    primaryForeground: '#ffffff',
+    secondary: '#EEEFFD',
+    secondaryForeground: '#5148D3',
+    muted: '#F0F0F7',
+    mutedForeground: '#7B7A91',
+    accent: '#FFF2D7',
+    accentForeground: '#9A6612',
+    destructive: '#E85D75',
+    destructiveForeground: '#ffffff',
+    success: '#20B486',
+    mint: '#22C7A9',
+    border: '#E8E7F0',
+    input: '#E8E7F0',
+  },
+  dark: {
+    text: '#F4F2FF',
+    tint: '#8D86FF',
+    background: '#11111A',
+    foreground: '#F4F2FF',
+    card: '#1B1B27',
+    cardForeground: '#F4F2FF',
+    primary: '#8D86FF',
+    primaryForeground: '#11111A',
+    secondary: '#27263A',
+    secondaryForeground: '#C7C3FF',
+    muted: '#242330',
+    mutedForeground: '#A4A0B9',
+    accent: '#3A2F1D',
+    accentForeground: '#FFD98A',
+    destructive: '#F27D91',
+    destructiveForeground: '#11111A',
+    success: '#36C99B',
+    mint: '#36D4B8',
+    border: '#302F40',
+    input: '#3B394D',
+  },
+  radius: 20,
+};
+
+export const accentPresets = {
+  violet: { label: 'Dreamy Violet', color: '#6C63FF' },
+  mint: { label: 'Mint Fresh', color: '#20B486' },
+  peach: { label: 'Sunset Peach', color: '#F18B6A' },
+  ocean: { label: 'Ocean Blue', color: '#2589D8' },
+  rose: { label: 'Rose Pink', color: '#D9659B' },
+  midnight: { label: 'Midnight', color: '#4A4A75' },
+  forest: { label: 'Forest', color: '#3D8B66' },
+  sand: { label: 'Warm Sand', color: '#B98453' },
+} as const;
+
+export type AccentKey = keyof typeof accentPresets;
+
+export default colors;
