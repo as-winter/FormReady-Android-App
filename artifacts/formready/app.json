@@ -3,6 +3,8 @@
     "name": "FormReady: Photo & PDF Tools",
     "slug": "formready",
     "version": "1.0.0",
+    "description": "Resize photos, compress files, create PDFs and make documents form-ready.",
+    "privacy": "unlisted",
     "orientation": "portrait",
     "icon": "./assets/images/icon.png",
     "scheme": "formready",
@@ -10,7 +12,16 @@
     "ios": {
       "supportsTablet": false
     },
-    "android": {},
+    "android": {
+      "package": "com.formready.photoandpdf",
+      "versionCode": 1,
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/images/adaptive-icon-foreground.png",
+        "backgroundColor": "#6C63FF",
+        "monochromeImage": "./assets/images/adaptive-icon-foreground.png"
+      },
+      "allowBackup": false
+    },
     "web": {
       "favicon": "./assets/images/icon.png"
     },
