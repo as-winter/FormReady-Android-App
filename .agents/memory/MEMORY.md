@@ -1,1 +1,2 @@
 - [Expo preview compatibility](expo-preview-compatibility.md) — keep optional document-processing modules out of top-level imports so Expo web can boot.
+- [Standalone Expo builds](standalone-expo-builds.md) — isolate Expo apps in monorepos with their own lockfile and workspace dependency metadata before EAS builds.
