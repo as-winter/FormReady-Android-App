@@ -6,7 +6,7 @@
     "description": "Resize photos, compress files, create PDFs and make documents form-ready.",
     "privacy": "unlisted",
     "orientation": "portrait",
-    "icon": "./assets/images/icon.png",
+    "icon": "./assets/formready-icon.png",
     "scheme": "formready",
     "userInterfaceStyle": "automatic",
     "ios": {
